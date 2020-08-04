@@ -15,7 +15,7 @@ def minproduct(a,b,n,k):
         d = abs(p-temp)
         if d>diff:
             diff = d
-        return res-diff
+    return res-diff
 n,k=map(int,input().split())
 a=list(map(int,input().split()))
 b=list(map(int,input().split()))
