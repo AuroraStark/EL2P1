@@ -16,7 +16,7 @@ for _ in range(int(input())):
                 break
         #rr
         for i in range(len(s)):
-            ds = ds[len(ds)-1:]+ds[0:len(ds)-1]
+            ds = ds[len(ds)-1:]+s[0:len(ds)-1]
             rr = rr + 1
             if ds == ds[::-1]:
                 fr = True
